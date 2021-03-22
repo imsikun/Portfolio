@@ -11,6 +11,7 @@ export default ({ data }) => {
   const {
     allStrapiProjects: { nodes: projects }
   } = data
+  console.log(data)
 
   return (
     <Layout>
