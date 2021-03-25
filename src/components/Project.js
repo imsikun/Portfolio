@@ -16,7 +16,7 @@ const Project = ({ description, title, github, stack, url, image, index }) => {
           })}
         </div>
         <div className='project-links'>
-          <a href='{github}'>
+          <a href={github}>
             {' '}
             <FaGithubSquare className='project-icon' />
           </a>
@@ -31,7 +31,12 @@ const Project = ({ description, title, github, stack, url, image, index }) => {
 }
 
 Project.propTypes = {
-  title: PropTypes.string.isRequired
+  title: PropTypes.string.isRequired,
+  github: PropTypes.string.isRequired,
+  url: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  image: PropTypes.object.isRequired,
+  stack: PropTypes.arrayOf(PropTypes.object).isRequired
 }
 
 export default Project
