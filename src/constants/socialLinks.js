@@ -17,6 +17,11 @@ const data = [
     id: 2,
     icon: <FaGithub className='social-icon'></FaGithub>,
     url: 'https://www.github.com/imsikun'
+  },
+  {
+    id: 3,
+    icon: <FaTwitterSquare className='social-icon'></FaTwitterSquare>,
+    url: 'https://www.twitter.com/imsikun1'
   }
 ]
 const links = data.map(link => {

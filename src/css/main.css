@@ -190,7 +190,7 @@ p {
 /* social links */
 .social-links {
   margin-top: 2rem;
-  width: 5rem;
+  width: 9rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -387,12 +387,12 @@ Sidebar Animation
 .sidebar-icons li:nth-of-type(3) {
   animation-delay: 0.75s;
 }
-.sidebar-icons li:nth-of-type(4) {
+/* .sidebar-icons li:nth-of-type(4) {
   animation-delay: 1s;
 }
 .sidebar-icons li:nth-of-type(5) {
   animation-delay: 1.25s;
-}
+} */
 @keyframes slideUp {
   0% {
     transform: translateY(200px);
