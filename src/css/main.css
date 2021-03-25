@@ -832,7 +832,7 @@ Footer
 */
 .footer {
   height: 9rem;
-  background: transparent;
+  background: #222;
   text-align: center;
   display: grid;
   place-items: center;
