@@ -10,7 +10,7 @@ module.exports = {
     description: 'This is Subhakants Portfolio website',
     author: '@imsikun',
     twitterUsername: '@imsikun1',
-    image: '/twitter-img.png',
+    image: '/display.png',
     siteUrl: 'https://subhakant.netlify.app'
   },
   plugins: [
