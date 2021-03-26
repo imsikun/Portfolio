@@ -1,6 +1,5 @@
 import React from 'react'
 import SocialLinks from '../constants/socialLinks'
-import Sign from '../assets/sign1.png'
 const Footer = () => {
   return (
     <footer className='footer'>
