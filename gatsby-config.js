@@ -11,7 +11,7 @@ module.exports = {
     author: '@imsikun',
     twitterUsername: '@imsikun1',
     image: '/twitter-img.png',
-    siteUrl: 'https://testing-strapi-gatsby-build.netlify.app'
+    siteUrl: 'https://subhakant.netlify.app'
   },
   plugins: [
     `gatsby-transformer-sharp`,
