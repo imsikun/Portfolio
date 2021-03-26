@@ -5,7 +5,6 @@ import Hero from '../components/Hero'
 import Services from '../components/Services'
 import Jobs from '../components/Jobs'
 import Projects from '../components/Projects'
-import Footer from '../components/Footer'
 
 export default ({ data }) => {
   const {
