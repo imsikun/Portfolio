@@ -7,7 +7,7 @@ import SocialLinks from '../constants/socialLinks'
 //querying the image with graphql
 const query = graphql`
   {
-    file(relativePath: { eq: "hero-img1.png" }) {
+    file(relativePath: { eq: "hero-img2.jpg" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid
@@ -33,7 +33,7 @@ const Hero = () => {
         <article className='hero-info'>
           <div>
             <h1>I'm Subh</h1>
-            <h4>Flutter & FrontEnd Developer</h4>
+            <h4>FrontEnd Developer</h4>
             <Link to='/contact' className='btn'>
               Contact me
             </Link>
